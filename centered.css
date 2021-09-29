@@ -9,6 +9,9 @@
 }
 
 body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -21,8 +24,15 @@ body {
   width: 100vmin;
   height: 100vmin;
   font-size: 3vmin;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1em;
 }
 
 .debug {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
 }

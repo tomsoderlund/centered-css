@@ -9,7 +9,7 @@
     "dist/"
   ],
   "scripts": {
-    "prepare": "rm -rf dist && mkdir -p dist/icons && uglifycss centered.css > dist/centered.min.css && cp icons/* dist/icons/"
+    "prepare": "rm -rf dist && mkdir -p dist/icons && uglifycss centered.css > dist/centered.min.css"
   },
   "devDependencies": {
     "uglifycss": "^0.0.29"
