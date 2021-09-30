@@ -8,13 +8,21 @@
   padding: 0;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   position: absolute;
-  top: 0;
-  bottom: 0;
+
   left: 0;
   right: 0;
-  margin: auto;
+
+  top: 0;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+
   display: flex;
   justify-content: center;
   align-items: center;
