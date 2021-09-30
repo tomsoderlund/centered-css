@@ -26,7 +26,8 @@ body {
 .centered {
   font-size: 3vmin;
   font-size: calc(3 * var(--vmin, 1vmin));
-  /* font-size: clamp(8px, calc(3 * var(--vmin, 1vmin)), 24px); */
+  /* Clamp to avoid too big on large screens */
+  font-size: clamp(7px, calc(3 * var(--vmin, 1vmin)), 24px);
   width: 33.333em;
   height: 33.333em;
 
