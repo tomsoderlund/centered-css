@@ -2,6 +2,8 @@
 
 **A centered, auto-scaling CSS box**
 
+NPM: https://www.npmjs.com/package/centered-css
+
 Demo: https://tomsoderlund.github.io/centered-css/
 
 ![Screenshot of Centered CSS](docs/demo.gif)
