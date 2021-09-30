@@ -21,9 +21,10 @@ Demo: https://tomsoderlund.github.io/centered-css/
 Add this for iOS Safari resize fix:
 
     <script type="application/javascript">
-      function handleResize () { window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`); }
-      window.onresize = handleResize
-      handleResize()
+      // iOS Safari resize fix
+      function handleResize () { window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`); };
+      window.onresize = handleResize;
+      handleResize();
     </script>
 
 ## Update NPM
