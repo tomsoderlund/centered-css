@@ -8,20 +8,13 @@
   padding: 0;
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 body {
   position: absolute;
 
   left: 0;
   right: 0;
-
   top: 0;
-  min-height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
+  bottom: 0;
 
   display: flex;
   justify-content: center;
@@ -32,7 +25,8 @@ body {
 
 .centered {
   font-size: 3vmin;
-  /*font-size: clamp(8px, 3vmin, 24px);*/
+  font-size: calc(3 * var(--vmin, 1vmin));
+  font-size: clamp(8px, calc(3 * var(--vmin, 1vmin)), 24px);
   width: 33.333em;
   height: 33.333em;
 
@@ -45,5 +39,5 @@ body {
 }
 
 .debug {
-  background-color: rgba(0, 255, 0, 0.05);
+  background-color: rgba(0, 0, 255, 0.05);
 }
