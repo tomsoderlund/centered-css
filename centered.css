@@ -12,6 +12,8 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -21,9 +23,10 @@ body {
 }
 
 .centered {
-  width: 100vmin;
-  height: 100vmin;
   font-size: 3vmin;
+  font-size: clamp(9px, 3vmin, 24px);
+  width: 33.333em;
+  height: 33.333em;
 
   display: flex;
   justify-content: center;

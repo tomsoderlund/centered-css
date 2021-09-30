@@ -20,3 +20,5 @@ Demo: https://tomsoderlund.github.io/centered-css/
 ## Update NPM
 
     yarn publish
+
+(Will run `yarn prepare` automatically, which builds the `/dist` folder)
