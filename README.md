@@ -4,7 +4,7 @@
 
 Demo: https://tomsoderlund.github.io/centered-css/
 
-![Screenshot of Centered CSS](docs/demo.png)
+![Screenshot of Centered CSS](docs/demo.jpg)
 
 
 ## Install
