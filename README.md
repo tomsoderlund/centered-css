@@ -13,12 +13,13 @@ Demo: https://tomsoderlund.github.io/centered-css/
 
     yarn add centered-css
 
+Add class `centered` on your element that you want centered.
 
 ## Import in JavaScript
 
     import '../node_modules/centered-css/dist/centered.min.css'
 
-Add this for iOS Safari resize fix:
+Optional: Add this for iOS Safari resize fix:
 
     <script type="application/javascript">
       // iOS Safari resize fix
