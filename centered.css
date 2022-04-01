@@ -42,6 +42,8 @@ body {
 
 .centered.portrait {
   font-size: 3vh;
+  /* iOS Safari fix: set variable --vh with JavaScript */
+  font-size: calc(3 * var(--vh, 1vh));
   width: 19.607em; /* 1.7x */
   height: 33.333em;
   justify-content: flex-start;
