@@ -28,10 +28,9 @@
   </main>
 
   <script type="application/javascript">
-    // iOS Safari resize fix
-    function handleResize () { window.document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`); };
-    window.onresize = handleResize;
-    handleResize();
+    // iOS Safari resize fix, run only once
+    function handleResizeOnLoad () { window.document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`); };
+    window.onload = handleResizeOnLoad;
   </script>  
 
 </body>
