@@ -1,7 +1,7 @@
 {
   "name": "centered-css",
   "description": "A centered, auto-scaling CSS box",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "Tom Söderlund <tom@tomsoderlund.com>",
   "main": "centered.css",
   "license": "MIT",
