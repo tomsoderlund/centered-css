@@ -15,6 +15,8 @@ Demo: https://tomsoderlund.github.io/centered-css/
 
 Add class `centered` on your element that you want centered.
 
+Class `centered portrait` will make it in portrait aspect ratio, more suitable for phones.
+
 ## Import in JavaScript
 
     import '../node_modules/centered-css/dist/centered.min.css'

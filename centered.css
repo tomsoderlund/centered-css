@@ -25,6 +25,7 @@ body {
 
 .centered {
   font-size: 3vmin;
+  /* iOS Safari fix: set variable --vmin with JavaScript */
   font-size: calc(3 * var(--vmin, 1vmin));
   /* Clamp to avoid too big on large screens */
   font-size: clamp(7px, calc(3 * var(--vmin, 1vmin)), 24px);
@@ -36,9 +37,17 @@ body {
   align-items: center;
   flex-direction: column;
 
-  padding: 2em;
+  padding: 1em;
+}
+
+.centered.portrait {
+  font-size: 3vh;
+  width: 19.607em; /* 1.7x */
+  height: 33.333em;
+  justify-content: flex-start;
 }
 
 .centered-debug {
-  background-color: rgba(0, 200, 200, 0.05);
+  background-color: rgba(0, 200, 200, 0.10);
+  overflow: hidden;
 }
