@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Centered CSS</title>
+  <title>Centered Portrait</title>
   <meta name="description" content="centered-css"/>
   <meta charSet="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <meta property="og:title" content="Centered CSS"/>
+  <meta property="og:title" content="Centered Portrait"/>
   <meta property="og:description" content="centered-css"/>
   <meta property="og:locale" content="en_US"/>
   <link rel="stylesheet" href="./centered.css"/>
 </head>
 
-<body>
+<body class="centered-container">
 
-  <main class="centered portrait centered-debug">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+    p {
+      margin: 0.5em 0;
+    }
+  </style>
+
+  <main class="centered portrait debug">
     <h1>Centered Portrait</h1>
     
     <p><a href="index.html">Square mode</a></p>
