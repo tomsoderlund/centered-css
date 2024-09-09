@@ -9,7 +9,8 @@
     "dist/"
   ],
   "scripts": {
-    "prepare": "rm -rf dist && mkdir -p dist && uglifycss centered.css > dist/centered.min.css"
+    "prepare": "rm -rf dist && mkdir -p dist && uglifycss centered.css > dist/centered.min.css",
+    "preview": "echo '\nNow open up http://localhost:8000/index.html\n'; python3 -m http.server 8000"
   },
   "devDependencies": {
     "uglifycss": "^0.0.29"
