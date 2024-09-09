@@ -17,7 +17,7 @@ Add class `centered` on your element that you want centered ([demo](https://toms
 
 Class `centered portrait` will make it in portrait aspect ratio, more suitable for phones ([demo](https://tomsoderlund.github.io/centered-css/portrait.html)).
 
-Then, use `em` size units (not `px`) and they will auto-scale with the window size.
+Then, use `em` or `%` size units (not `px`) and they will auto-scale with the window size.
 
 ## Import in JavaScript
 
