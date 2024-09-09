@@ -9,13 +9,15 @@ Demo: https://tomsoderlund.github.io/centered-css/
 ![Screenshot of Centered CSS](docs/demo.gif)
 
 
-## Install
+## Installation and usage
 
     yarn add centered-css
 
-Add class `centered` on your element that you want centered.
+Add class `centered` on your element that you want centered ([demo](https://tomsoderlund.github.io/centered-css/index.html)).
 
-Class `centered portrait` will make it in portrait aspect ratio, more suitable for phones.
+Class `centered portrait` will make it in portrait aspect ratio, more suitable for phones ([demo](https://tomsoderlund.github.io/centered-css/portrait.html)).
+
+Then, use `em` size units (not `px`) and they will auto-scale with the window size.
 
 ## Import in JavaScript
 
