@@ -26,8 +26,8 @@ Optional: Add this for iOS Safari resize fix:
     <script type="application/javascript">
       // iOS Safari resize fix
       function handleResize () { window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`); };
+      window.onload = handleResize;
       window.onresize = handleResize;
-      handleResize();
     </script>
 
 or for React:
