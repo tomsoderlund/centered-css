@@ -21,7 +21,7 @@ Then, use `em` or `%` size units (not `px`) and they will auto-scale with the wi
 
 ## Import in JavaScript
 
-    import '../node_modules/centered-css/dist/centered.min.css'
+    import 'centered-css/dist/centered.min.css'
 
 Optional: Add this for iOS Safari resize fix:
 
