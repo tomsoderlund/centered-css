@@ -27,7 +27,10 @@ Optional: Add this for iOS Safari resize fix:
 
     <script type="application/javascript">
       // iOS Safari resize fix
-      function handleResize () { window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`); };
+      function handleResize () {
+        // For 'portrait': window.document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+        window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`);
+      };
       window.onload = handleResize;
       window.onresize = handleResize;
     </script>
@@ -36,7 +39,10 @@ or for React:
 
     useLayoutEffect(() => {
       // iOS Safari resize fix in React
-      function handleResize () { window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`); };
+      function handleResize () {
+        // For 'portrait': window.document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+        window.document.documentElement.style.setProperty('--vmin', `${Math.min(window.innerWidth, window.innerHeight) * 0.01}px`);
+      };
       window.addEventListener('resize', handleResize);
       handleResize();
       return () => window.removeEventListener('resize', handleResize);
