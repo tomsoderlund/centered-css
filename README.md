@@ -13,7 +13,7 @@ Demo: https://tomsoderlund.github.io/centered-css/
 
     yarn add centered-css
 
-Add class `centered` on your element that you want centered ([demo](https://tomsoderlund.github.io/centered-css/index.html)).
+Add class `centered-container` on an element, and `centered` on the child element that you want centered ([demo](https://tomsoderlund.github.io/centered-css/index.html)).
 
 Class `centered portrait` will make it in portrait aspect ratio, more suitable for phones ([demo](https://tomsoderlund.github.io/centered-css/portrait.html)).
 
